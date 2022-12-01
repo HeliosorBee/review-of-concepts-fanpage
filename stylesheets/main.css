@@ -1,0 +1,52 @@
+/*
+  This will style all elements to have line spacing
+  of 140% of the font size of the element. 
+*/
+* {
+  margin: 0;
+
+  line-height: 140%;
+}
+
+/*
+  This will style the HTML element (also known as the
+  root element) to have a default font-size of 62.5% 
+  of the default font size for the browser. - Mr. Hardmen
+*/
+html {
+  font-size: 62.5%;
+}
+
+/*
+  This styles the section thart holds all of my
+  important information to have no spacing on the top
+  and bottom of the section and spacing that is equal
+  to 5% of the width of the browser window an the left
+  and right sides of the section. -Mr. Hardmen
+*/
+main {
+  margin: 0 5%;
+}
+
+/*
+  this styles the span weight to bold.
+*/
+span {
+  font-weight: bold;
+}
+
+/*
+  this styles the element with an ID of description
+  to underline all the text inside the element.
+*/
+#description {
+  text-decoration: underline;
+}
+
+/*
+  this styles the element with an Class of genmates
+  to italic all the text inside the element.
+*/
+.genmates {
+  font-style: italic;
+}
