@@ -114,13 +114,28 @@ nav a:active {
   font-weight: bolder;
 }
 
-h1 {
-  margin-top: 30;
+/*
+  This will give the h1 element 50px of margin on the 
+  bottom of the text. along with padding of 20px to &
+  bottom and 0 on bottom sides
 
+  This styles the nav a element to have the background color
+  of #ededed, alongside the font color of #669bcc.
+
+  This will style the font to have a font-size of 4.8rem,
+  the text-align is centered, and the text shadow is the
+  color of #121212. 1px by 1px, and 1.5px of blur.
+*/
+h1 {
+  margin-bottom: 50px;
+  padding: 20px 0;
+
+  background-color: #ededed;
   color: #669bcc;
 
   font-size: 4.8rem;
   text-align: center;
+  text-shadow: #121212 1px 1px 1.5px;
 }
 
 /*
@@ -153,6 +168,19 @@ section figure {
   margin-left: 5%;
 }
 
+figure img {
+  width: 80%;
+
+  margin-left: 15%;
+}
+
+figcaption {
+  margin-left: 10%;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
 /*
   this styles the span weight to bold.
 */
@@ -168,10 +196,28 @@ span {
   text-decoration: underline;
 }
 
+#ike-description {
+  margin-top: 3.2%;
+}
+
+.ike-eveland {
+  font-size: bold;
+}
+
 /*
   this styles the element with an Class of genmates
   to italic all the text inside the element.
 */
 .genmates {
   font-style: italic;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+
+  width: 100%;
+
+  margin-top: 50px;
+  text-align: center;
 }
