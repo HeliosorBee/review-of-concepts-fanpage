@@ -181,6 +181,10 @@ figcaption {
   text-align: center;
 }
 
+iframe {
+  margin: 10px;
+}
+
 /*
   this styles the span weight to bold.
 */
@@ -200,6 +204,11 @@ span {
   margin-top: 3.2%;
 }
 
+#ike-song-covers {
+  margin-top: 5%;
+  width: 100%;
+}
+
 .ike-eveland {
   font-size: bold;
 }
@@ -210,6 +219,38 @@ span {
 */
 .genmates {
   font-style: italic;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+
+  width: 62%;
+
+  margin-top: 50px;
+  text-align: center;
+}
+
+.column-one {
+  float: left;
+  width: 15%;
+
+  padding: 10px;
+
+  /* height: 300px; */
+}
+
+.column-two {
+  float: right;
+  width: 17%;
+  padding: 10px;
+
+  /* height: 300px; */
+}
+
+iframe {
+  margin: 15px;
 }
 
 footer {
